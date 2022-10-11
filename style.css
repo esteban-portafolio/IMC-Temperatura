@@ -1,0 +1,78 @@
+@import url("https://fonts.googleapis.com/css?family=DM+Sans&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(12, 163, 57);
+  font-family: "DM Sans", sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+#escoger {
+  background-color: #f7f7f7;
+  padding: 20px 40px;
+  justify-content: center;
+  align-items: center;
+  position:static;
+  font-size: 30px;
+  border-radius: 100%;
+  letter-spacing: 2px;
+  box-shadow: 0rem 0rem 0rem 0.1rem rgba(250, 0, 33, 0.877);
+  font-weight: 600;
+  width: 100%;
+}
+
+
+.tempButton {
+  border-radius: 50px;
+  color: #fff;
+  display: block;
+  font-family: inherit;
+  font-size: medium;
+  font-weight: 900;
+  padding: 10px;
+  margin-top: 20px;
+  width: 100%;
+}
+
+.imcButton {
+  border-radius: 50px;
+  color: #fff;
+  display: block;
+  font-family: inherit;
+  font-size: medium;
+  font-weight: 900;
+  padding: 10px;
+  margin-top: 20px;
+  width: 100%;
+}
+
+#form{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 15px;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+#form label{
+  margin: 10px;
+  border-radius: 5px;
+  color: #fff;
+}
+
+#form input{
+  margin: 10px;
+  border-radius: 5px;
+}
+
+
+
